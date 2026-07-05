@@ -45,15 +45,15 @@ Also working with: ECS Fargate, ALB/NLB, S3, CloudFront, Route 53, ACM, Loki, Al
 
 ### 🚀 Projects
 
-**[Headscale VPN Control Plane](https://github.com/ei-sei)**
+**[Headscale VPN Control Plane](https://github.com/ei-sei/headscale-ecs)** 
 
 Self-hosted WireGuard control plane on AWS ECS Fargate. Six Terraform modules, OIDC-authenticated GitHub Actions pipelines, NLB with TLS termination. This is the project I'm proudest of, and it taught me the most about networking, state management, and cost tradeoffs in production.
 
-**[Watched](https://github.com/ei-sei)**
+**[Watched](https://github.com/ei-sei/watched)**
 
 Media tracking app deployed on Oracle Free Tier. Go REST API, React/TypeScript frontend, PostgreSQL, Docker, full CI/CD via GitHub Actions. Built end to end with a layered architecture, spun up on demand rather than kept running.
 
-**[Threat Composer on ECS Fargate](https://github.com/ei-sei)**
+**[Threat Composer on ECS Fargate](https://github.com/ei-sei//threat-composer-ecs)**
 
 Threat modelling tool deployed with a full Terraform + GitHub Actions pipeline, ALB, ACM, and Cloudflare DNS. Kept offline between demos to control cloud spend.
 
